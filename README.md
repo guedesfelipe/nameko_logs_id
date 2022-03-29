@@ -1,6 +1,6 @@
 # 🍄 **Nameko logs with ids** 📄
 
-Example of how to show the stack_id of the nameko's RPC calls in your logs
+Example of how to show the stack_id of the nameko's RPC calls in your logs using nameko custom `Dependency Provider` and loguru with `contextualize`.
 
 ## 📌 Dependencies
 
