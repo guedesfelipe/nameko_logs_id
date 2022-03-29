@@ -2,7 +2,7 @@
 
 Example of how to show the stack_id of the nameko's RPC calls in your logs
 
-## Dependencies
+## 📌 Dependencies
 
 * [Nameko](https://github.com/nameko/nameko)
 * [Loguru](https://github.com/Delgan/loguru)
@@ -12,7 +12,7 @@ To install all dependencies with poetry:
 
     make install-dev
 
-## Images
+## 🖼️ Images
 
 ### `Service_1` calling `Service_2`
 
@@ -21,3 +21,6 @@ To install all dependencies with poetry:
 ### Calling only `Service_2`
 
 ![Calling only Service_2](/imgs/example2.png?raw=true)
+
+
+# ✨ [Code Examples Here](/nameko_logs_id/)
