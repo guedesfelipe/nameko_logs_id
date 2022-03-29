@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "nameko_logs_id"
+version = "0.1.0"
+description = ""
+authors = ["Felipe Guedes <contatofelipeguedes@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+nameko = "^2.14.1"
+loguru = "^0.6.0"
+
+[tool.poetry.dev-dependencies]
+blue = "^0.8.0"
+isort = "^5.10.1"
+pip-audit = "^2.1.0"
+prospector = { extras = ["with_mypy"], version = "ˆ1.6.0" }
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
